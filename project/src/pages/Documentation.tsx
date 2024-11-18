@@ -38,6 +38,47 @@ export default function Documentation() {
       content: `# Guide du Contributeur\n\n## Comment Contribuer\n1. Fork le projet`,
       category: 'Développement',
       tags: ['contribution', 'opensource']
+    },
+    {
+      id: '3',
+      title: 'Introduction au HTML5',
+      content: `# Guide du Contributeur\n\n## Qu'est-ce que le HTML\nHTML (HyperText Markup Language) est un langage de balisage hypertexte utilisé principalement pour créer des documents sur Internet. HTML a commencé son parcours au début des années 90 en tant que langage primitif pour créer des pages Web, et à l'heure actuelle, il est difficile d'imaginer Internet sans HTML. La grande majorité des sites Web utilisent HTML d'une manière ou d'une autre.
+
+En 2014, les travaux sur une nouvelle norme ont été officiellement achevés - HTML5, qui a en fait créé une révolution en apportant de nombreuses nouveautés au HTML.
+
+Qu'a apporté exactement HTML5 ?
+
+HTML5 définit un nouvel algorithme d'analyse pour créer la structure DOM
+
+ajouter de nouveaux éléments et balises, tels que elements video, audioet un certain nombre d'autres
+
+redéfinir les règles et la sémantique des éléments HTML préexistants
+
+En fait, avec l'ajout de nouvelles fonctions, HTML5 est devenu non seulement une nouvelle version du langage de balisage pour créer des pages Web, mais en fait une plate-forme de création d'applications, et la portée de son utilisation s'est étendue bien au-delà de l'environnement Web Internet : HTML5 est également utilisé pour créer des applications mobiles pour Android, iOS, Windows Mobile et même pour créer des applications de bureau pour les ordinateurs classiques (en particulier sous Windows 8/8.1/10).
+
+En conséquence, en règle générale, HTML 5 est utilisé principalement dans deux sens :
+
+HTML 5 en tant que langage de balisage hypertexte mis à jour, quelques développements de la version précédente de HTML 4
+
+HTML 5 en tant que plate-forme puissante pour créer des applications Web, qui comprend non seulement le langage de balisage hypertexte lui-même, le HTML mis à jour, mais également le langage de programmation JavaScript et les feuilles de style en cascade CSS 3.
+
+Qui est responsable du développement de HTML5 ? Ceci est fait par le World Wide Web Consortium (en abrégé W3C - World Wide Web Consortium) - une organisation internationale indépendante qui définit la norme HTML5 sous forme de spécifications. La spécification complète actuelle en anglais peut être consultée sur https://www.w3.org/TR/html5/ . Et il convient de noter que l'organisation continue de travailler sur HTML5, en publiant des mises à jour de la spécification.
+
+Prise en charge du navigateur
+Il convient de noter qu'il y a toujours eu un écart entre la spécification HTML5 et l'utilisation de cette technologie dans les navigateurs Web. La plupart des navigateurs ont commencé à implémenter les normes HTML5 avant même leur publication officielle. Et désormais, la plupart des dernières versions des navigateurs prennent en charge la plupart des fonctionnalités HTML5 (Google Chrome, Firefox, Opera, Internet Explorer 11, Microsoft Edge). Dans le même temps, de nombreux navigateurs plus anciens, tels qu'Internet Explorer 8 et les versions antérieures, ne prennent pas en charge les normes, et IE 9, 10 ne les prend en charge que partiellement.
+
+Cependant, même les navigateurs qui prennent généralement en charge les normes peuvent ne pas prendre en charge certaines fonctionnalités spécifiques. Et cela doit aussi être pris en compte dans le travail. Mais en général, la situation en matière de support de cette technologie est plutôt bonne.
+
+Pour vérifier la prise en charge HTML5 pour un navigateur spécifique, vous pouvez utiliser un service spécial http://html5test.com .
+
+Outils requis
+De quoi avez-vous besoin pour travailler avec HTML5 ? Tout d'abord, un éditeur de texte pour taper le texte des pages web en html. À l'heure actuelle, l'un des éditeurs de texte les plus simples et les plus populaires est Notepad++ , disponible sur http://notepad-plus-plus.org/ . Ses avantages incluent la gratuité et la mise en évidence des balises HTML. À l'avenir, je me concentrerai sur cet éditeur de texte.
+
+Il convient également de mentionner l'éditeur de texte multiplateforme Visual Studio Code . Cet éditeur a des capacités légèrement supérieures à celles de Notepad++ et, en plus, il peut fonctionner non seulement sous Windows, mais également sur les systèmes d'exploitation basés sur MacOS et Linux.
+
+Et vous aurez également besoin d'un navigateur Web pour lancer et vérifier les pages Web écrites. En tant que navigateur Web, vous pouvez utiliser la dernière version de l'un des navigateurs courants : Google Chrome, Mozilla Firefox, Microsoft Edge, Opera.`,
+      category: 'Développement',
+      tags: ['contribution', 'opensource']
     }
   ]);
 
